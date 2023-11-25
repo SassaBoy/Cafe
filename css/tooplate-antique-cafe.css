@@ -164,3 +164,17 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
         margin-bottom: 10px;
     }
 }
+
+#tm-nav img {
+    height: 200px; /* Auto adjusts the height */
+    max-width: 100%; /* Ensures the image does not exceed its original size */
+    margin-left: -20px;
+}
+
+/* Optional: Adjust styles for smaller screens if necessary */
+@media (max-width: 768px) {
+    #tm-nav img {
+        height: auto;
+        max-width: 80%; /* Adjust as needed for smaller screens */
+    }
+}
